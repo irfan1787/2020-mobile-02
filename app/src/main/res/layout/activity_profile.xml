@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="58dp"
+        android:layout_height="28dp"
+        app:srcCompat="@drawable/arrow_left_black"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="143dp"
+        android:layout_height="34dp"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:text="                  Edit"
+        android:textColor="#FF0000"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="265dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="164dp"
+        android:layout_height="30dp"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:text="Personal Info"
+        android:textColor="#000000"
+        android:textSize="27sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/profile_picture"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="136dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/edit_icon"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="197dp" />
+
+    <TextView
+        android:id="@+id/enterText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:text="About me "
+        android:textColor="#808080"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="246dp" />
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="327dp"
+        android:layout_height="73dp"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:text="I think this is one of the most important qualities to have as a driver.Show responsibility for other traffic participants"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <EditText
+        android:id="@+id/edittext5"
+        android:layout_width="313dp"
+        android:layout_height="43dp"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:hint="Full name"
+        android:textSize="14sp"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="344dp" />
+
+    <TextView
+        android:id="@+id/text8"
+        android:layout_width="157dp"
+        android:layout_height="22dp"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:text="   Jonathan Doe"
+
+        android:textColor="#000000"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="244dp"
+        tools:layout_editor_absoluteY="354dp" />
+
+    <EditText
+        android:id="@+id/edittext5"
+        android:layout_width="313dp"
+        android:layout_height="43dp"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:hint="Email"
+        android:textSize="14sp"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="396dp" />
+
+    <TextView
+        android:id="@+id/text12"
+        android:layout_width="194dp"
+        android:layout_height="24dp"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:text="   jonathan.designer@gmail.com"
+
+        android:textColor="#000000"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="406dp" />
+
+    <EditText
+        android:id="@+id/edittext25"
+        android:layout_width="313dp"
+        android:layout_height="43dp"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:hint="Full name"
+        android:textSize="14sp"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="344dp" />
+
+    <TextView
+        android:id="@+id/text34"
+        android:layout_width="157dp"
+        android:layout_height="22dp"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:text="   Jonathan Doe"
+
+        android:textColor="#000000"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="244dp"
+        tools:layout_editor_absoluteY="354dp" />
+
+    <EditText
+        android:id="@+id/edittext65"
+        android:layout_width="313dp"
+        android:layout_height="43dp"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:hint="Gender"
+        android:textSize="14sp"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="439dp" />
+
+    <TextView
+        android:id="@+id/text44"
+        android:layout_width="114dp"
+        android:layout_height="27dp"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:text="   Male"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="289dp"
+        tools:layout_editor_absoluteY="448dp" />
+
+    <EditText
+        android:id="@+id/edittext37"
+        android:layout_width="313dp"
+        android:layout_height="43dp"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:hint="Phone No."
+        android:textSize="14sp"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="494dp" />
+
+    <TextView
+        android:id="@+id/text41"
+        android:layout_width="114dp"
+        android:layout_height="27dp"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:text="   +123423423423"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="241dp"
+        tools:layout_editor_absoluteY="502dp" />
+
+    <EditText
+        android:id="@+id/edittext14"
+        android:layout_width="313dp"
+        android:layout_height="43dp"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:hint="City"
+        android:textSize="14sp"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="545dp" />
+
+    <TextView
+        android:id="@+id/text74"
+        android:layout_width="114dp"
+        android:layout_height="27dp"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:text="   Ottawa"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="289dp"
+        tools:layout_editor_absoluteY="554dp" />
+
+    <EditText
+        android:id="@+id/edittext19"
+        android:layout_width="313dp"
+        android:layout_height="43dp"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:hint="Address"
+        android:textSize="14sp"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="600dp" />
+
+    <TextView
+        android:id="@+id/text21"
+        android:layout_width="220dp"
+        android:layout_height="38dp"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:text="296 Elign St, Ottawwa, ON x 1M3,
+                                               Canada"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="600dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

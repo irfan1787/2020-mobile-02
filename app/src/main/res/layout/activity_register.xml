@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="53dp"
+        android:layout_height="29dp"
+        app:srcCompat="@drawable/arrow_left_black"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/grey_line_large"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="135dp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="123dp"
+        android:layout_height="26dp"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:text="General Info"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <TextView
+        android:id="@+id/enterText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:text="Full Name "
+        android:textColor="#808080"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <Button
+        android:layout_width="267dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginEnd="54dp"
+        android:background="@drawable/btn_red_large"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:text="Next"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="628dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="308dp"
+        android:layout_height="34dp"
+        app:srcCompat="@drawable/red_line_padded"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="211dp" />
+
+    <TextView
+        android:id="@+id/enterText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:text="Jonathan Doe "
+        android:textColor="#000000"
+        android:textSize="17sp"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="202dp" />
+
+    <TextView
+        android:id="@+id/text8"
+        android:layout_width="64dp"
+        android:layout_height="25dp"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:text="   of 5"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="327dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <TextView
+        android:id="@+id/text0"
+        android:layout_width="64dp"
+        android:layout_height="25dp"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:text="1"
+        android:textColor="#DC143C"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="327dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="313dp"
+        android:layout_height="43dp"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:hint="Email Addreess"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="313dp"
+        android:layout_height="43dp"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:hint="Mobile Number"
+        android:textSize="14sp"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="320dp" />
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="313dp"
+        android:layout_height="43dp"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:hint="Country"
+        android:textSize="14sp"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="382dp" />
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="313dp"
+        android:layout_height="43dp"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:hint="Password"
+        android:textSize="14sp"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="449dp" />
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="313dp"
+        android:layout_height="43dp"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:hint="Referal Code (Optional"
+        android:textSize="14sp"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="566dp" />
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="313dp"
+        android:layout_height="43dp"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:hint="Confirm Password"
+        android:textSize="14sp"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="508dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

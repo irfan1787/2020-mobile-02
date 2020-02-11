@@ -6,14 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="486dp"
         android:layout_height="444dp"
         app:srcCompat="@drawable/red_rectangle"
-        tools:layout_editor_absoluteX="-60dp"
-        tools:layout_editor_absoluteY="-29dp" />
+        tools:layout_editor_absoluteX="-38dp"
+        tools:layout_editor_absoluteY="-140dp" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -28,22 +27,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/futura_pt_demibold"
-        android:text="Welcome back"
+        android:text="Continuing as"
         android:textColor="#313131"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="423dp" />
+        android:textSize="23sp"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="351dp" />
 
     <TextView
         android:id="@+id/text_welcome2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="163dp"
+        android:layout_height="34dp"
         android:fontFamily="@font/futura_pt_demibold"
-        android:text="at largest Services marketplace"
+        android:text="Service Provider"
         android:textColor="#313131"
-        android:textSize="14sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="466dp" />
+        android:textSize="23sp"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="393dp" />
 
     <TextView
         android:id="@+id/enterText"
@@ -54,49 +53,77 @@
         android:textColor="#808080"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.452"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="687dp" />
-
-    <TextView
-        android:id="@+id/enterText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/futura_pt_demibold"
-        android:text="Enter as a "
-        android:textColor="#808080"
-        android:textSize="12sp"
-        tools:layout_editor_absoluteX="83dp"
-        tools:layout_editor_absoluteY="531dp" />
+        tools:layout_editor_absoluteY="641dp" />
 
     <Button
-        android:layout_width="267dp"
-        android:layout_height="36dp"
+        android:layout_width="144dp"
+        android:layout_height="38dp"
         android:layout_marginStart="54dp"
         android:layout_marginEnd="54dp"
         android:background="@drawable/btn_red_large"
         android:fontFamily="@font/futura_pt_demibold"
-        android:text="User"
+        android:text="Register"
         android:textColor="#FFFFFF"
         android:textSize="10sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintHorizontal_bias="0.598"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="563dp" />
+        tools:layout_editor_absoluteY="447dp" />
 
     <Button
-        android:layout_width="267dp"
-        android:layout_height="36dp"
+        android:layout_width="81dp"
+        android:layout_height="40dp"
         android:layout_marginStart="54dp"
         android:layout_marginEnd="54dp"
         android:background="@drawable/btn_white_large"
         android:fontFamily="@font/futura_pt_demibold"
-        android:text="service provider"
+        android:text="Login"
         android:textColor="#B22222"
         android:textSize="10sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintHorizontal_bias="0.013"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="607dp" />
+        tools:layout_editor_absoluteY="447dp" />
+
+    <Button
+        android:layout_width="226dp"
+        android:layout_height="35dp"
+        android:background="@drawable/btn_white_large"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:text="    Continue with Google"
+        android:textColor="#B22222"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="507dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="23dp"
+        android:layout_height="21dp"
+        app:srcCompat="@drawable/google_logo"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="514dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="23dp"
+        android:layout_height="21dp"
+        app:srcCompat="@drawable/fb_logo"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="563dp"
+
+    <Button
+        android:layout_width="225dp"
+        android:layout_height="36dp"
+        android:background="@drawable/btn_blue_large"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:outlineAmbientShadowColor="#0000cd"
+        android:text="    Continue with Facebook"
+        android:textColor="#0000cd"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="555dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
